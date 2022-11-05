@@ -20,23 +20,24 @@ This is an API for a Blog
 - Body:
 ```
 {
-  "firstName":"Joseph",`
+  "firstName":"Joseph",
   "lastName":"Example",
   "email":"joeexample@gmail.com",
   "password":"joe123456"
-}`
+}
 ```
 (firstName and lastName should not be less than 6 characters)
 - responses
+
 Success
 ```
 {
    message: 'Register successful'
-   user: {`
+   user: {
         "firstName":"Joseph",
         "lastName":"Example",
         "email":"joeexample@gmail.com",
         "password":"joe123456"
    }
-}`
+}
 ```
