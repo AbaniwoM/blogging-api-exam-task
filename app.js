@@ -8,8 +8,10 @@ app.use(express.json());
 //import the routes
 const userRoute = require("./routes/auth");
 const postRoute = require("./routes/posts");
+const categoryRoute = require("./routes/categories");
 app.use("/api/users/", userRoute);
 app.use("/api/posts/", postRoute);
+app.use("/api/categories/", categoryRoute);
 
 mongoose.connect(process.env.DB_CONNECTION, () => {
     console.log("Connected");
