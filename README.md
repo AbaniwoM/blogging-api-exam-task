@@ -19,8 +19,8 @@ This is an API for a Blog
 - Method: POST
 - Body:
 `{
-  "firstName":"Joseph",
-  "lastName":"Example",
+  "firstName":"Joseph",<br />
+  "lastName":"Example",<br />
   "email":"joeexample@gmail.com",
   "password":"joe123456"
 }`
