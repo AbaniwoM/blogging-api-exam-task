@@ -41,3 +41,22 @@ Success
    }
 }
 ```
+
+## Login User
+- Route: /login
+- Method: POST
+- Header
+    - Content-Type: application/json
+    - auth-token: (token given) 
+- Body:
+```
+{
+  "email":"joeexample@gmail.com",
+  "password":"joe123456"
+}
+```
+(login details must be same as registered details)
+- responses
+
+Success
+`An authentication token will be given to you which you'll supply in the Header as you go on`
