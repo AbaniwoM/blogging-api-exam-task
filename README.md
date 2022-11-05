@@ -14,6 +14,8 @@ This is an API for a Blog
 ## To start the server
 - run `npm start`
 
+## Hosted link on Heroku 
+
 ## Register User
 - Route: /register
 - Method: POST
@@ -59,4 +61,52 @@ Success
 - responses
 
 Success
+
 `An authentication token will be given to you which you'll supply in the Header as you go on`
+
+`Note: token is being updated after 1hr`
+
+## Create Post
+- Route: /api/posts
+- Method: POST
+- Header
+    - Content-Type: application/json
+    - auth-token: (token given) 
+    
+`Note: token is being updated after 1hr`
+ 
+## Update Post
+- Route: /api/posts/:id
+- Method: PUT
+- Header
+    - Content-Type: application/json
+    - auth-token: (token given) 
+    
+`Note: token is being updated after 1hr`
+
+## Delete Post
+- Route: /api/posts/:id
+- Method: DELETE
+- Header
+    - Content-Type: application/json
+    - auth-token: (token given) 
+    
+`Note: token is being updated after 1hr`
+
+## Get all Posts
+- Route: /api/posts
+- Method: GET
+- Header
+    - Content-Type: application/json
+    - auth-token: (token given)
+ 
+ `Note: token is being updated after 1hr`
+ 
+## Get Posts by username, category, author, title, tags
+- Route: e.g `/api/posts?user=Johnson`
+- Method: GET
+- Header
+    - Content-Type: application/json
+    - auth-token: (token given) 
+
+`Note: token is being updated after 1hr`
