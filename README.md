@@ -13,3 +13,26 @@ This is an API for a Blog
 
 ## To start the server
 - run `npm start`
+
+## Register User
+- Route: /register
+- Method: POST
+- Body:
+{
+  "firstName":"Joseph",
+  "lastName":"Example",
+  "email":"joeexample@gmail.com",
+  "password":"joe123456"
+}
+(firstName and lastName should not be less than 6 characters)
+- responses
+Success
+{
+   message: 'Register successful'
+   user: {
+        "firstName":"Joseph",
+        "lastName":"Example",
+        "email":"joeexample@gmail.com",
+        "password":"joe123456"
+   }
+}
