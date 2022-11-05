@@ -110,3 +110,6 @@ Success
     - auth-token: (token given) 
 
 `Note: token is being updated after 1hr`
+
+## Contributor
+- Michael Abaniwo
