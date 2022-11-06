@@ -18,9 +18,6 @@ app.use("/api/users/", userRoute);
 app.use("/api/posts/", postRoute);
 app.use("/api/categories/", categoryRoute);
 
-mongoose.connect(process.env.DB_CONNECTION, () => {
-    console.log("Connected");
-});
 
-app.listen(3000, () => console.log("Listening in port 3000"));
+module.exports = app;
 

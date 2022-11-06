@@ -12,10 +12,10 @@ This is an API for a Blog
 #### 8. Test Application
 
 ## To start the server
-- run `npm start`
+- run `npm run dev`
 
-## Hosted link on Heroku 
-- https://blog-api-exam.herokuapp.com/
+## Hosted link 
+- https://real-underclothes-fly.cyclic.app/
 
 ## Register User
 - Route: /register
