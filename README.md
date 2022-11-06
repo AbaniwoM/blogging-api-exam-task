@@ -15,6 +15,7 @@ This is an API for a Blog
 - run `npm start`
 
 ## Hosted link on Heroku 
+- https://blog-api-exam.herokuapp.com/
 
 ## Register User
 - Route: /register
