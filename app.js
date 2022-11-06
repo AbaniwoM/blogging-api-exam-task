@@ -5,6 +5,10 @@ require("dotenv/config");
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("Welcome to the Blog");
+});
+
 
 //import the routes
 const userRoute = require("./routes/auth");
